@@ -1,0 +1,161 @@
+.conteiner{
+    width: 100%;
+}
+
+.infoCabecalho{
+	background-color: #00bd2aab;
+	width: 100%;
+	display: flex;
+	height: auto;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.img-mail{
+	background-image: url('../img/mail.png');
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	padding-right: 5px;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+	flex-direction: column;
+	padding-bottom: 40px;
+}
+
+img{
+    width: 200px;
+	height: 150px;
+	margin: 0 auto;  
+}
+
+.logo p{
+	text-align: center;
+	color: #5aa26a;
+	font-weight: 400;
+}
+
+.logo p:first-of-type{
+	font-family: 'Lobster', cursive;
+	font-style: italic;
+	font-size: 40px;
+    font-weight: 600;
+}
+
+.efect {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    /* stroke-width: 8px; */
+    fill: transparent;
+    stroke: rgba(220, 82, 88, 1);
+    /* border-bottom: 5px solid black; */
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.wrapper{
+    background-image: url('../img/imagem-fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.formSearch {
+	padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.formSearch-conteudo {
+    font-size: 1em;
+    font-style: italic;
+	line-height: 1.5;
+	display: block;
+	margin: 0 auto;
+	padding: .5em;
+	max-width: 35em;
+	height: 1.5em;
+	background: #FFF;
+	overflow: auto;
+	border: none;
+	resize: none;
+    width: 100%;
+    outline: none;
+	/* transition: height .1s linear; */
+}
+
+/* .formSearch-conteudo:focus {
+	height: 7em
+} */
+
+.formSearch-procurar {
+    font-size: 15px;
+    font-weight: 600;
+	border: none;
+	display: block;
+    margin: 50px auto 0;
+	padding: 8px 25px;
+	background: rgba(20, 170, 80, 0.25);
+}
+.formSearch-procurar:hover{
+	background: rgba(28, 199, 96, 0.69);
+}
+
+.cards{
+	width: 100%;
+	display: flex;
+}
+
+.card-completo{
+	margin: 15px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+.card-completo:hover{
+	border: none;
+	box-shadow: 3px 3px 0 #87da1991;
+}
+
+.card-img{
+	background-image: url('../img/ico-logo.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 50vh;
+}
+.card-conteudo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.card-conteudo p{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.card-conteudo .btnCard{
+	font-size: 14px;
+	margin: 12px auto 8px;
+	padding: 8px 10px;
+	font-weight: 600;
+	border: none;
+	background: rgba(20, 170, 80, 0.25);
+}
+.btnCard:hover{
+	background: rgba(28, 199, 96, 0.69);
+}
+
+footer{
+	width: 100%;
+	padding-top: 20px;
+}
+
+.end-page{
+	text-align: center;
+	background-color: #00bd2aab;
+	padding: 10px 0 10px;
+
+}
+
